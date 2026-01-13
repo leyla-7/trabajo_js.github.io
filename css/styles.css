@@ -391,7 +391,7 @@ legend {
 
 h3 {
   font-weight: 400;
-  font-size: 100;
+  font-size: 1 rem;
 }
 
 #resultado {
@@ -439,3 +439,4 @@ h3 {
   .page-title { margin: 1rem auto 1.5rem; }
   .prev, .next { width:44px; height:44px; }
 }
+
