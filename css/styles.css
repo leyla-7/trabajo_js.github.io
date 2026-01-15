@@ -172,6 +172,7 @@ main {
   border: 1px solid rgba(24,62,75,.06);
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
+  width: 100%;
 }
 
 .card:hover {
@@ -246,7 +247,7 @@ main {
 #main-image {
   width: 80%;
   max-height: 520px;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: var(--radius);
   background: #fff;
   box-shadow: var(--shadow-md);
@@ -439,5 +440,3 @@ h3 {
   .page-title { margin: 1rem auto 1.5rem; }
   .prev, .next { width:44px; height:44px; }
 }
-
-
